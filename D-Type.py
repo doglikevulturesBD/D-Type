@@ -3,6 +3,7 @@ import json
 import plotly.graph_objects as go
 
 from dtype_engine import (
+CORE_DIMENSIONS,
     normalize_scores,
     determine_archetype,
     monte_carlo_probabilities,
