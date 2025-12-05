@@ -1,0 +1,221 @@
+[
+  {
+    "id": 1,
+    "title": "High-Upside Idea From a Colleague",
+    "description": "A colleague proposes a bold idea that might fail but could have huge upside.",
+    "options": [
+      "Encourage them and explore the idea further.",
+      "Start evaluating feasibility immediately.",
+      "Push to test it quickly despite risks."
+    ],
+    "mapping": {
+      "Encourage them and explore the idea further.": {
+        "thinking": 70, "execution": 30, "risk": 30, "motivation": 30, "team": 30, "commercial": 30
+      },
+      "Start evaluating feasibility immediately.": {
+        "thinking": 30, "execution": 70, "risk": 30, "motivation": 30, "team": 30, "commercial": 30
+      },
+      "Push to test it quickly despite risks.": {
+        "thinking": 30, "execution": 30, "risk": 70, "motivation": 30, "team": 30, "commercial": 30
+      }
+    }
+  },
+
+  {
+    "id": 2,
+    "title": "Long Project With Slow Phase",
+    "description": "You are working on a long-term project and hit a slow, boring phase.",
+    "options": [
+      "Remind yourself why the work matters.",
+      "Seek help from teammates to maintain progress.",
+      "Re-evaluate the commercial value to re-energize yourself."
+    ],
+    "mapping": {
+      "Remind yourself why the work matters.": {
+        "thinking": 30, "execution": 30, "risk": 30, "motivation": 70, "team": 30, "commercial": 30
+      },
+      "Seek help from teammates to maintain progress.": {
+        "thinking": 30, "execution": 30, "risk": 30, "motivation": 30, "team": 70, "commercial": 30
+      },
+      "Re-evaluate the commercial value to re-energize yourself.": {
+        "thinking": 30, "execution": 30, "risk": 30, "motivation": 30, "team": 30, "commercial": 70
+      }
+    }
+  },
+
+  {
+    "id": 3,
+    "title": "Team Strategic Disagreement",
+    "description": "Your team disagrees on a strategic direction.",
+    "options": [
+      "Facilitate discussion to align the team.",
+      "Look at market data to decide.",
+      "Experiment with both paths briefly."
+    ],
+    "mapping": {
+      "Facilitate discussion to align the team.": {
+        "thinking": 30, "execution": 30, "risk": 30, "motivation": 30, "team": 70, "commercial": 30
+      },
+      "Look at market data to decide.": {
+        "thinking": 30, "execution": 30, "risk": 30, "motivation": 30, "team": 30, "commercial": 70
+      },
+      "Experiment with both paths briefly.": {
+        "thinking": 30, "execution": 30, "risk": 70, "motivation": 30, "team": 30, "commercial": 30
+      }
+    }
+  },
+
+  {
+    "id": 4,
+    "title": "New Technology Discovery",
+    "description": "You discover a new technology relevant to your field.",
+    "options": [
+      "Explore its potential applications deeply.",
+      "Prototype something quickly using it.",
+      "Pitch a bold concept using the technology."
+    ],
+    "mapping": {
+      "Explore its potential applications deeply.": {
+        "thinking": 70, "execution": 30, "risk": 30, "motivation": 30, "team": 30, "commercial": 30
+      },
+      "Prototype something quickly using it.": {
+        "thinking": 30, "execution": 70, "risk": 30, "motivation": 30, "team": 30, "commercial": 30
+      },
+      "Pitch a bold concept using the technology.": {
+        "thinking": 30, "execution": 30, "risk": 30, "motivation": 70, "team": 30, "commercial": 30
+      }
+    }
+  },
+
+  {
+    "id": 5,
+    "title": "Receiving Difficult Feedback",
+    "description": "You receive difficult feedback about your project.",
+    "options": [
+      "Reflect and adjust your strategy calmly.",
+      "Seek input from others to improve it.",
+      "Validate assumptions again with customers."
+    ],
+    "mapping": {
+      "Reflect and adjust your strategy calmly.": {
+        "thinking": 30, "execution": 30, "risk": 70, "motivation": 30, "team": 30, "commercial": 30
+      },
+      "Seek input from others to improve it.": {
+        "thinking": 30, "execution": 30, "risk": 30, "motivation": 30, "team": 70, "commercial": 30
+      },
+      "Validate assumptions again with customers.": {
+        "thinking": 30, "execution": 30, "risk": 30, "motivation": 30, "team": 30, "commercial": 70
+      }
+    }
+  },
+
+  {
+    "id": 6,
+    "title": "Choosing Between Safe vs Innovative Project",
+    "description": "You need to choose between a safe project and a highly innovative one.",
+    "options": [
+      "Pick the innovative project — bigger upside.",
+      "Pick the safe one — more reliable path.",
+      "Pick the one that aligns with your long-term purpose."
+    ],
+    "mapping": {
+      "Pick the innovative project — bigger upside.": {
+        "thinking": 30, "execution": 30, "risk": 70, "motivation": 30, "team": 30, "commercial": 30
+      },
+      "Pick the safe one — more reliable path.": {
+        "thinking": 30, "execution": 70, "risk": 30, "motivation": 30, "team": 30, "commercial": 30
+      },
+      "Pick the one that aligns with your long-term purpose.": {
+        "thinking": 30, "execution": 30, "risk": 30, "motivation": 70, "team": 30, "commercial": 30
+      }
+    }
+  },
+
+  {
+    "id": 7,
+    "title": "Team Stuck on a Problem",
+    "description": "Your team is stuck on a problem.",
+    "options": [
+      "Generate fresh creative angles.",
+      "Break problem into executable tasks.",
+      "Reframe it from the customer's perspective."
+    ],
+    "mapping": {
+      "Generate fresh creative angles.": {
+        "thinking": 70, "execution": 30, "risk": 30, "motivation": 30, "team": 30, "commercial": 30
+      },
+      "Break problem into executable tasks.": {
+        "thinking": 30, "execution": 70, "risk": 30, "motivation": 30, "team": 30, "commercial": 30
+      },
+      "Reframe it from the customer's perspective.": {
+        "thinking": 30, "execution": 30, "risk": 30, "motivation": 30, "team": 30, "commercial": 70
+      }
+    }
+  },
+
+  {
+    "id": 8,
+    "title": "Limited Time to Deliver",
+    "description": "You must deliver a project but time is limited.",
+    "options": [
+      "Motivate the team to push through.",
+      "Take leadership and coordinate people tightly.",
+      "Simplify the scope and execute fast."
+    ],
+    "mapping": {
+      "Motivate the team to push through.": {
+        "thinking": 30, "execution": 30, "risk": 30, "motivation": 70, "team": 30, "commercial": 30
+      },
+      "Take leadership and coordinate people tightly.": {
+        "thinking": 30, "execution": 30, "risk": 30, "motivation": 30, "team": 70, "commercial": 30
+      },
+      "Simplify the scope and execute fast.": {
+        "thinking": 30, "execution": 70, "risk": 30, "motivation": 30, "team": 30, "commercial": 30
+      }
+    }
+  },
+
+  {
+    "id": 9,
+    "title": "Presenting to Senior Stakeholders",
+    "description": "You're asked to present an idea to senior stakeholders.",
+    "options": [
+      "Focus on big-picture concepts and vision.",
+      "Focus on feasibility and actionable steps.",
+      "Focus on market need and value proposition."
+    ],
+    "mapping": {
+      "Focus on big-picture concepts and vision.": {
+        "thinking": 70, "execution": 30, "risk": 30, "motivation": 30, "team": 30, "commercial": 30
+      },
+      "Focus on feasibility and actionable steps.": {
+        "thinking": 30, "execution": 70, "risk": 30, "motivation": 30, "team": 30, "commercial": 30
+      },
+      "Focus on market need and value proposition.": {
+        "thinking": 30, "execution": 30, "risk": 30, "motivation": 30, "team": 30, "commercial": 70
+      }
+    }
+  },
+
+  {
+    "id": 10,
+    "title": "New Opportunity With Limited Resources",
+    "description": "A new opportunity appears, but resources are limited.",
+    "options": [
+      "Take the risk — resource issues can be solved later.",
+      "Prioritise based on strategic fit and value.",
+      "Stick to the original plan and avoid distractions."
+    ],
+    "mapping": {
+      "Take the risk — resource issues can be solved later.": {
+        "thinking": 30, "execution": 30, "risk": 70, "motivation": 30, "team": 30, "commercial": 30
+      },
+      "Prioritise based on strategic fit and value.": {
+        "thinking": 30, "execution": 30, "risk": 30, "motivation": 30, "team": 30, "commercial": 70
+      },
+      "Stick to the original plan and avoid distractions.": {
+        "thinking": 30, "execution": 70, "risk": 30, "motivation": 30, "team": 30, "commercial": 30
+      }
+    }
+  }
+]

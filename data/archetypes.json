@@ -1,0 +1,232 @@
+{
+  "Visionary": {
+    "description": "You imagine future possibilities, connect dots others can't see, and gravitate toward high-upside, bold concepts.",
+    "signature": {
+      "thinking": 90,
+      "execution": 50,
+      "risk": 80,
+      "motivation": 75,
+      "team": 55,
+      "commercial": 45
+    },
+    "strengths": [
+      "Exceptional big-picture thinking",
+      "Strong ability to generate breakthrough ideas",
+      "High comfort with uncertainty"
+    ],
+    "risks": [
+      "May overlook execution detail",
+      "Ideas can outrun available resources",
+      "Can become frustrated with slow systems"
+    ],
+    "pathways": ["TRL 1–3", "Exploratory R&D", "Early discovery"],
+    "business_models": ["Blue Ocean", "Platform model", "Vision-driven model"],
+    "funding_strategy": ["Innovation grants", "Angel investors", "Exploration funding"]
+  },
+
+  "Catalyst": {
+    "description": "You ignite momentum, energise teams, and push ideas into reality with urgency and enthusiasm.",
+    "signature": {
+      "thinking": 65,
+      "execution": 80,
+      "risk": 55,
+      "motivation": 90,
+      "team": 60,
+      "commercial": 55
+    },
+    "strengths": [
+      "High energy implementation",
+      "Strong motivational leadership",
+      "Quick to remove bottlenecks"
+    ],
+    "risks": [
+      "May burn out or burn others out",
+      "May push forward before validating assumptions"
+    ],
+    "pathways": ["TRL 4–6", "Pilot deployments"],
+    "business_models": ["Agile model", "Freemium", "Rapid prototyping"],
+    "funding_strategy": ["Seed funding", "Innovation accelerators"]
+  },
+
+  "Engineer": {
+    "description": "You excel in execution, structure, system-building, and delivering practical solutions with precision.",
+    "signature": {
+      "thinking": 60,
+      "execution": 95,
+      "risk": 40,
+      "motivation": 65,
+      "team": 55,
+      "commercial": 45
+    },
+    "strengths": [
+      "Reliable execution and delivery",
+      "Strong technical depth",
+      "Excellent problem-solving under constraints"
+    ],
+    "risks": [
+      "May prioritise feasibility over vision",
+      "May miss unconventional opportunities"
+    ],
+    "pathways": ["TRL 4–9", "Scale-up engineering"],
+    "business_models": ["Product-based", "Hardware-as-a-service"],
+    "funding_strategy": ["Tech transfer programmes", "Engineering-focused grants"]
+  },
+
+  "Strategist": {
+    "description": "You think in terms of markets, value, and long-term positioning. You optimise for impact and big-picture clarity.",
+    "signature": {
+      "thinking": 80,
+      "execution": 60,
+      "risk": 40,
+      "motivation": 65,
+      "team": 55,
+      "commercial": 90
+    },
+    "strengths": [
+      "Sharp commercial intuition",
+      "Strong market awareness",
+      "Excellent at crafting positioning"
+    ],
+    "risks": [
+      "May over-analyse before acting",
+      "Can get stuck validating instead of building"
+    ],
+    "pathways": ["TRL 5–9", "Product-market fit"],
+    "business_models": ["Lean canvas", "Marketplace model", "Value-stack model"],
+    "funding_strategy": ["VC funding", "Commercialisation grants"]
+  },
+
+  "Experimenter": {
+    "description": "You learn by trying, testing, and iterating. You thrive in ambiguity and adapt rapidly.",
+    "signature": {
+      "thinking": 70,
+      "execution": 60,
+      "risk": 85,
+      "motivation": 65,
+      "team": 50,
+      "commercial": 40
+    },
+    "strengths": [
+      "Rapid iteration",
+      "High adaptability",
+      "Strong learning loops"
+    ],
+    "risks": [
+      "May lack long-term consistency",
+      "Experiments may scatter focus"
+    ],
+    "pathways": ["TRL 2–5", "Prototyping"],
+    "business_models": ["Lean startup", "A/B testing models"],
+    "funding_strategy": ["Early-stage grants", "Angel investors"]
+  },
+
+  "Integrator": {
+    "description": "You bring people, ideas, and systems together, balancing innovation with practicality.",
+    "signature": {
+      "thinking": 65,
+      "execution": 65,
+      "risk": 50,
+      "motivation": 65,
+      "team": 90,
+      "commercial": 60
+    },
+    "strengths": [
+      "Excellent team facilitation",
+      "Strong cross-functional collaboration",
+      "Balances diverse perspectives"
+    ],
+    "risks": [
+      "May avoid necessary conflict",
+      "Can be slow to take bold decisions"
+    ],
+    "pathways": ["TRL 4–8", "Cross-functional programmes"],
+    "business_models": ["Collaborative model", "Ecosystem orchestration"],
+    "funding_strategy": ["Partnership grants", "Joint ventures"]
+  },
+
+  "Operator": {
+    "description": "You run systems smoothly, optimise processes, and ensure reliability in innovation environments.",
+    "signature": {
+      "thinking": 55,
+      "execution": 80,
+      "risk": 30,
+      "motivation": 60,
+      "team": 80,
+      "commercial": 50
+    },
+    "strengths": [
+      "High organisational discipline",
+      "Strong operational clarity",
+      "Reliably gets things done"
+    ],
+    "risks": [
+      "May resist radical change",
+      "Prefers optimisation over disruption"
+    ],
+    "pathways": ["TRL 6–9", "Operational scale-up"],
+    "business_models": ["Operational excellence", "Service-as-a-system"],
+    "funding_strategy": ["Corporate innovation funds", "Scale grants"]
+  },
+
+  "Storyteller": {
+    "description": "You translate complex ideas into compelling narratives that win support and build momentum.",
+    "signature": {
+      "thinking": 70,
+      "execution": 50,
+      "risk": 45,
+      "motivation": 90,
+      "team": 70,
+      "commercial": 85
+    },
+    "strengths": [
+      "Persuasive communication",
+      "Strong sense-making ability",
+      "Builds alignment effortlessly"
+    ],
+    "risks": [
+      "May oversell before validating",
+      "Can lean too heavily on narrative over evidence"
+    ],
+    "pathways": ["TRL 3–7", "Stakeholder management"],
+    "business_models": ["Community-led", "Narrative-driven"],
+    "funding_strategy": ["Pitch competitions", "Crowdfunding"]
+  },
+
+  "Apex Innovator": {
+    "description": "You combine exceptional creativity, execution strength, commercial intuition, and resilience. You operate at the apex of innovation capability: fast, adaptable, and deeply strategic.",
+    "signature": {
+      "thinking": 92,
+      "execution": 92,
+      "risk": 82,
+      "motivation": 92,
+      "team": 88,
+      "commercial": 88
+    },
+    "strengths": [
+      "Elite-level creative and analytical ability",
+      "Rapid execution and powerful learning agility",
+      "Strong commercial judgement and opportunity sensing",
+      "High adaptability and resilience under uncertainty"
+    ],
+    "risks": [
+      "May overcommit or push too hard",
+      "May become impatient with slower processes or teams",
+      "Can assume others keep pace without checking alignment"
+    ],
+    "pathways": [
+      "High-performance ventures",
+      "TRL 5–9 scaling environments",
+      "Innovation leadership roles"
+    ],
+    "business_models": [
+      "Hybrid innovation systems",
+      "Platform ecosystems",
+      "Value-stack scaling models"
+    ],
+    "funding_strategy": [
+      "Venture capital",
+      "Growth equity",
+      "Strategic partnerships"
+    ]
+  }
+}
