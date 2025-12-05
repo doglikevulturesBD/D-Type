@@ -1,257 +1,255 @@
 [
   {
-    "id": 1,
-    "question": "I often generate multiple ideas when solving problems.",
-    "dimension": "thinking",
-    "reverse": false
-  },
-  {
-    "id": 2,
-    "question": "I enjoy exploring unconventional or unusual solutions.",
-    "dimension": "thinking",
-    "reverse": false
-  },
-  {
-    "id": 3,
-    "question": "I think systematically and can break down complex concepts easily.",
-    "dimension": "thinking",
-    "reverse": false
-  },
-  {
-    "id": 4,
-    "question": "I see patterns and connections before most people notice them.",
-    "dimension": "thinking",
-    "reverse": false
-  },
-  {
-    "id": 5,
-    "question": "I prefer doing things myself rather than planning endlessly.",
-    "dimension": "execution",
+    "id": 17,
+    "question": "I am comfortable making decisions that deviate from guidelines when clinically justified.",
+    "dimension": "risk_orientation",
     "reverse": false
   },
   {
     "id": 6,
-    "question": "I follow through on tasks even when I lose interest.",
-    "dimension": "execution",
-    "reverse": false
-  },
-  {
-    "id": 7,
-    "question": "I can break down big tasks into actionable steps.",
-    "dimension": "execution",
-    "reverse": false
-  },
-  {
-    "id": 8,
-    "question": "I can stay organised even under pressure.",
-    "dimension": "execution",
-    "reverse": false
-  },
-  {
-    "id": 9,
-    "question": "I am comfortable taking bold decisions in uncertain situations.",
-    "dimension": "risk",
-    "reverse": false
-  },
-  {
-    "id": 10,
-    "question": "I tend to avoid risky moves, even when the potential reward is high.",
-    "dimension": "risk",
+    "question": "I feel uncomfortable making decisions without comprehensive information.",
+    "dimension": "clinical_decision_style",
     "reverse": true
   },
   {
-    "id": 11,
-    "question": "I recover quickly from setbacks.",
-    "dimension": "risk",
-    "reverse": false
-  },
-  {
-    "id": 12,
-    "question": "I experiment with new approaches, even if failure is possible.",
-    "dimension": "risk",
-    "reverse": false
-  },
-  {
-    "id": 13,
-    "question": "I am driven by a strong sense of purpose.",
-    "dimension": "motivation",
-    "reverse": false
-  },
-  {
-    "id": 14,
-    "question": "I keep going even when progress feels slow.",
-    "dimension": "motivation",
-    "reverse": false
-  },
-  {
-    "id": 15,
-    "question": "I feel energised by new goals and challenges.",
-    "dimension": "motivation",
-    "reverse": false
-  },
-  {
-    "id": 16,
-    "question": "I give up easily when problems pile up.",
-    "dimension": "motivation",
-    "reverse": true
-  },
-  {
-    "id": 17,
-    "question": "I enjoy building relationships with people.",
-    "dimension": "team",
-    "reverse": false
-  },
-  {
-    "id": 18,
-    "question": "I can collaborate effectively with diverse personalities.",
-    "dimension": "team",
-    "reverse": false
-  },
-  {
-    "id": 19,
-    "question": "I communicate ideas clearly to others.",
-    "dimension": "team",
-    "reverse": false
-  },
-  {
-    "id": 20,
-    "question": "I struggle to ask for help when needed.",
-    "dimension": "team",
+    "id": 30,
+    "question": "I perform better when the clinical environment is predictable and structured.",
+    "dimension": "stress_handling",
     "reverse": true
   },
   {
     "id": 21,
-    "question": "I understand how ideas eventually become products or services.",
-    "dimension": "commercial",
-    "reverse": false
-  },
-  {
-    "id": 22,
-    "question": "I can identify customer needs before they are obvious.",
-    "dimension": "commercial",
-    "reverse": false
-  },
-  {
-    "id": 23,
-    "question": "I know how to assess if an idea has commercial potential.",
-    "dimension": "commercial",
-    "reverse": false
-  },
-  {
-    "id": 24,
-    "question": "I find it difficult to think about turning ideas into businesses.",
-    "dimension": "commercial",
-    "reverse": true
-  },
-
-
-  {
-    "id": 25,
-    "question": "I enjoy learning new frameworks or concepts to improve my ideas.",
-    "dimension": "thinking",
-    "reverse": false
-  },
-  {
-    "id": 26,
-    "question": "I act quickly when I see an opportunity.",
-    "dimension": "execution",
-    "reverse": false
-  },
-  {
-    "id": 27,
-    "question": "I stay calm and logical in uncertain situations.",
-    "dimension": "risk",
-    "reverse": false
-  },
-  {
-    "id": 28,
-    "question": "I set personal challenges and push myself to achieve them.",
-    "dimension": "motivation",
-    "reverse": false
-  },
-  {
-    "id": 29,
-    "question": "I help others understand and contribute to shared goals.",
-    "dimension": "team",
-    "reverse": false
-  },
-  {
-    "id": 30,
-    "question": "I naturally think about the cost, value, and scalability of solutions.",
-    "dimension": "commercial",
+    "question": "When uncertain, I prefer to intervene early rather than risk deterioration.",
+    "dimension": "risk_orientation",
     "reverse": false
   },
   {
     "id": 31,
-    "question": "I take time to reflect deeply before making decisions.",
-    "dimension": "thinking",
+    "question": "I enjoy the challenge of managing chaotic or rapidly changing shifts.",
+    "dimension": "stress_handling",
     "reverse": false
   },
   {
-    "id": 32,
-    "question": "I often procrastinate even when I know what to do.",
-    "dimension": "execution",
+    "id": 4,
+    "question": "I rely heavily on protocols and guidelines when making clinical decisions.",
+    "dimension": "clinical_decision_style",
+    "reverse": false
+  },
+  {
+    "id": 25,
+    "question": "Colleagues often look to me for clarity or direction in uncertain moments.",
+    "dimension": "team_communication",
+    "reverse": false
+  },
+  {
+    "id": 12,
+    "question": "I feel uneasy when rushed into making rapid clinical decisions.",
+    "dimension": "response_tempo",
     "reverse": true
   },
   {
-    "id": 33,
-    "question": "I can handle criticism without feeling discouraged.",
-    "dimension": "risk",
-    "reverse": false
-  },
-  {
-    "id": 34,
-    "question": "I often motivate others to stay committed.",
-    "dimension": "motivation",
-    "reverse": false
-  },
-  {
-    "id": 35,
-    "question": "I build trust easily with people I work with.",
-    "dimension": "team",
+    "id": 28,
+    "question": "I naturally help bridge communication gaps between different team members.",
+    "dimension": "team_communication",
     "reverse": false
   },
   {
     "id": 36,
-    "question": "I understand how markets, customers, and pricing work.",
-    "dimension": "commercial",
+    "question": "I am quick to incorporate new evidence or techniques into my clinical practice.",
+    "dimension": "learning_adaptation",
     "reverse": false
   },
   {
-    "id": 37,
-    "question": "I tend to analyse situations too much before taking action.",
-    "dimension": "execution",
+    "id": 1,
+    "question": "I quickly form an initial impression of a case before gathering full details.",
+    "dimension": "clinical_decision_style",
+    "reverse": false
+  },
+  {
+    "id": 19,
+    "question": "I investigate aggressively when I suspect a serious underlying condition.",
+    "dimension": "risk_orientation",
+    "reverse": false
+  },
+  {
+    "id": 10,
+    "question": "Even under pressure, I take time to think before intervening.",
+    "dimension": "response_tempo",
+    "reverse": true
+  },
+  {
+    "id": 41,
+    "question": "I actively reflect on my clinical decisions to improve my future performance.",
+    "dimension": "learning_adaptation",
+    "reverse": false
+  },
+  {
+    "id": 7,
+    "question": "I trust my clinical intuition even when evidence is incomplete.",
+    "dimension": "clinical_decision_style",
+    "reverse": false
+  },
+  {
+    "id": 34,
+    "question": "High-pressure environments drain me more than they energise me.",
+    "dimension": "stress_handling",
+    "reverse": true
+  },
+  {
+    "id": 20,
+    "question": "I tend to avoid interventions unless they are urgently necessary.",
+    "dimension": "risk_orientation",
     "reverse": true
   },
   {
     "id": 38,
-    "question": "I enjoy imagining future scenarios and possibilities.",
-    "dimension": "thinking",
+    "question": "I actively seek out new tools, technologies, or ideas that improve patient care.",
+    "dimension": "learning_adaptation",
     "reverse": false
   },
   {
-    "id": 39,
-    "question": "I remain resilient even when I face unexpected difficulties.",
-    "dimension": "risk",
+    "id": 24,
+    "question": "I tend to work quietly and independently without sharing much along the way.",
+    "dimension": "team_communication",
+    "reverse": true
+  },
+  {
+    "id": 13,
+    "question": "I can shift my pace easily depending on how the clinical situation evolves.",
+    "dimension": "response_tempo",
     "reverse": false
+  },
+  {
+    "id": 9,
+    "question": "I prefer to stabilise a situation before making broader clinical decisions.",
+    "dimension": "response_tempo",
+    "reverse": false
+  },
+  {
+    "id": 37,
+    "question": "I prefer to stick to established methods rather than experiment with new approaches.",
+    "dimension": "learning_adaptation",
+    "reverse": true
+  },
+  {
+    "id": 3,
+    "question": "I easily recognise patterns or diagnoses based on subtle clues.",
+    "dimension": "clinical_decision_style",
+    "reverse": false
+  },
+  {
+    "id": 27,
+    "question": "I prefer minimal discussion when I have already decided on a plan.",
+    "dimension": "team_communication",
+    "reverse": true
   },
   {
     "id": 40,
-    "question": "I can recognise when an idea is worth investing in.",
-    "dimension": "commercial",
+    "question": "I enjoy learning from unusual or complex cases that challenge standard thinking.",
+    "dimension": "learning_adaptation",
     "reverse": false
   },
   {
-  "id": 41,
-  "question": "I often struggle to generate creative solutions.",
-  "dimension": "thinking",
-  "reverse": true
-},
-{
-  "id": 42,
-  "question": "I find it hard to spot patterns unless they are obvious.",
-  "dimension": "thinking",
-  "reverse": true
-}
-
+    "id": 22,
+    "question": "I communicate clearly and directly during high-pressure situations.",
+    "dimension": "team_communication",
+    "reverse": false
+  },
+  {
+    "id": 14,
+    "question": "In critical events, I often take the lead without waiting for direction.",
+    "dimension": "response_tempo",
+    "reverse": false
+  },
+  {
+    "id": 35,
+    "question": "I adapt well when priorities shift unexpectedly during a shift.",
+    "dimension": "stress_handling",
+    "reverse": false
+  },
+  {
+    "id": 2,
+    "question": "I prefer to follow a structured diagnostic pathway, even when time is limited.",
+    "dimension": "clinical_decision_style",
+    "reverse": false
+  },
+  {
+    "id": 29,
+    "question": "I remain calm and effective when multiple issues demand attention at once.",
+    "dimension": "stress_handling",
+    "reverse": false
+  },
+  {
+    "id": 16,
+    "question": "I prefer conservative treatment approaches unless strong evidence suggests otherwise.",
+    "dimension": "risk_orientation",
+    "reverse": true
+  },
+  {
+    "id": 5,
+    "question": "I often explore multiple differential diagnoses before committing to a plan.",
+    "dimension": "clinical_decision_style",
+    "reverse": false
+  },
+  {
+    "id": 26,
+    "question": "I prioritise maintaining harmony within the team, even during conflict.",
+    "dimension": "team_communication",
+    "reverse": false
+  },
+  {
+    "id": 18,
+    "question": "I feel uneasy taking clinical risks, even small ones.",
+    "dimension": "risk_orientation",
+    "reverse": true
+  },
+  {
+    "id": 42,
+    "question": "I adapt my style easily when working in different clinical environments.",
+    "dimension": "learning_adaptation",
+    "reverse": false
+  },
+  {
+    "id": 33,
+    "question": "I can stabilise myself quickly after stressful clinical events.",
+    "dimension": "stress_handling",
+    "reverse": false
+  },
+  {
+    "id": 11,
+    "question": "I work best when things move fast and require immediate action.",
+    "dimension": "response_tempo",
+    "reverse": false
+  },
+  {
+    "id": 23,
+    "question": "I adjust my communication style depending on who I am working with.",
+    "dimension": "team_communication",
+    "reverse": false
+  },
+  {
+    "id": 32,
+    "question": "I find it difficult to think clearly when multiple emergencies arise simultaneously.",
+    "dimension": "stress_handling",
+    "reverse": true
+  },
+  {
+    "id": 39,
+    "question": "I am cautious about adopting new practices until they are widely accepted.",
+    "dimension": "learning_adaptation",
+    "reverse": true
+  },
+  {
+    "id": 8,
+    "question": "I act quickly and confidently in situations where delays could worsen patient outcomes.",
+    "dimension": "response_tempo",
+    "reverse": false
+  },
+  {
+    "id": 15,
+    "question": "I escalate care early rather than waiting to see how the case progresses.",
+    "dimension": "risk_orientation",
+    "reverse": false
+  }
 ]
+
