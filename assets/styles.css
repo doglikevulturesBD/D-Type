@@ -1,0 +1,637 @@
+/* ============================================================
+   I-TYPE — FULL FUTURISTIC NEON DESIGN SYSTEM
+   Cleaned + unified + extended version
+   (Visual-only — NO logic changes)
+============================================================ */
+
+
+/* ============================================================
+   GLOBAL STYLE OVERRIDES
+============================================================ */
+
+body, .main, .stApp {
+    background: #0b0f1c !important;
+    color: #e5f4ff !important;
+}
+
+/* Remove default Streamlit padding for a cleaner layout */
+.block-container {
+    padding-top: 1.5rem !important;
+}
+
+
+
+/* ============================================================
+   HERO SECTION — Full Width Neon Intro
+============================================================ */
+
+.hero-wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 28vh;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    overflow: hidden;
+
+    background: rgba(12, 18, 40, 0.8);
+    border: 1px solid rgba(0,255,255,0.12);
+    backdrop-filter: blur(6px);
+}
+
+.hero-glow {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left: -50%;
+    top: -50%;
+
+    background: radial-gradient(circle at 50% 50%,
+        rgba(0,255,255,0.25),
+        rgba(150,80,255,0.12),
+        rgba(0,0,0,0.9)
+    );
+    filter: blur(80px);
+    animation: heroPulse 8s ease-in-out infinite alternate;
+    z-index: 1;
+}
+
+.hero-particles {
+    position: absolute;
+    inset: 0;
+
+    background-image: 
+        radial-gradient(circle, rgba(0,255,255,0.14) 2px, transparent 2px),
+        radial-gradient(circle, rgba(150,80,255,0.14) 2px, transparent 2px),
+        radial-gradient(circle, rgba(255,70,200,0.14) 2px, transparent 2px);
+    background-size: 140px 140px;
+    animation: drift 24s linear infinite;
+    opacity: 0.35;
+    z-index: 2;
+}
+
+.hero-content {
+    position: relative;
+    text-align: center;
+    padding-top: 90px;
+    z-index: 5;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, #00eaff, #ad7aff, #ff53dd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-sub {
+    margin-top: 12px;
+    font-size: 1.25rem;
+    opacity: 0.85;
+}
+
+@keyframes drift {
+    0% { transform: translate(0,0); }
+    50% { transform: translate(-15%,-15%); }
+    100% { transform: translate(-30%,-30%); }
+}
+
+@keyframes heroPulse {
+    0% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+
+
+
+/* ============================================================
+   TABS — Neon Glass
+============================================================ */
+
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+    background: rgba(10,15,25,0.4);
+    padding: 8px 14px;
+    border-radius: 14px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(0,255,255,0.15);
+}
+
+.stTabs [data-baseweb="tab"] {
+    color: #cfeeff !important;
+    font-weight: 600;
+    padding: 10px 18px !important;
+    border-radius: 12px !important;
+    transition: 0.25s ease;
+}
+
+.stTabs [aria-selected="true"] {
+    background: linear-gradient(135deg,
+        rgba(0,255,255,0.25),
+        rgba(120,70,255,0.25)
+    ) !important;
+    box-shadow: 0 0 18px rgba(0,255,255,0.35);
+}
+
+
+
+/* ============================================================
+   QUESTION CARD — Deep Tech Glow
+============================================================ */
+
+.itype-question-card {
+    background: rgba(15, 20, 35, 0.55);
+    padding: 22px 28px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+
+    border: 1px solid rgba(0,255,255,0.15);
+    backdrop-filter: blur(8px);
+
+    box-shadow: 0 0 18px rgba(0,255,255,0.08);
+    transition: all 0.25s ease;
+}
+
+.itype-question-card:hover {
+    transform: translateY(-4px);
+    border-color: #4af3ff;
+    box-shadow: 0 0 25px rgba(0,255,255,0.22);
+}
+
+
+
+/* ============================================================
+   SCENARIO CARD — Matching Question Card
+============================================================ */
+
+.itype-scenario-card {
+    background: rgba(18, 25, 48, 0.55);
+    padding: 22px 28px;
+    border-radius: 16px;
+    margin-bottom: 28px;
+
+    border: 1px solid rgba(0,255,255,0.15);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 18px rgba(0,255,255,0.1);
+    transition: 0.25s ease;
+}
+
+.itype-scenario-card:hover {
+    transform: translateY(-4px);
+    border-color: #4af3ff;
+    box-shadow: 0 0 25px rgba(0,255,255,0.22);
+}
+
+
+
+/* ============================================================
+   SLIDERS — Neon Glow Track + Thumb
+============================================================ */
+
+.stSlider > div > div {
+    background: linear-gradient(90deg,
+        rgba(0,255,255,0.25),
+        rgba(90,50,255,0.25)
+    ) !important;
+    height: 6px !important;
+    border-radius: 50px;
+}
+
+.stSlider > div [role="slider"] {
+    background: #00eaff !important;
+    border: 2px solid #7a5cff !important;
+    box-shadow: 0 0 10px #00eaff, 0 0 20px #7a5cff !important;
+}
+
+
+
+/* ============================================================
+   RESULT CARD — Unified Glow System
+============================================================ */
+
+.itype-result-card {
+    background: rgba(20, 28, 48, 0.55);
+    padding: 32px;
+    border-radius: 20px;
+
+    border: 1px solid rgba(0,255,255,0.18);
+    backdrop-filter: blur(12px);
+
+    margin-top: 40px;
+
+    box-shadow:
+        0 0 30px rgba(0,255,255,0.18),
+        inset 0 0 18px rgba(120,60,255,0.15);
+}
+
+
+
+/* ============================================================
+   RESULT SUBCARDS
+============================================================ */
+
+.itype-strength-card,
+.itype-risk-card,
+.itype-pathway-card,
+.itype-business-card,
+.itype-funding-card {
+    padding: 16px 20px;
+    border-radius: 14px;
+    margin: 8px 0;
+
+    border: 1px solid rgba(0,255,255,0.15);
+    backdrop-filter: blur(6px);
+}
+
+
+
+/* Strengths = green glow */
+.itype-strength-card {
+    background: rgba(10, 45, 20, 0.35);
+    border-color: rgba(34,255,150,0.25);
+    box-shadow: 0 0 14px rgba(34,255,150,0.25);
+}
+
+/* Risks = red glow */
+.itype-risk-card {
+    background: rgba(60,10,25,0.35);
+    border-color: rgba(255,120,150,0.25);
+    box-shadow: 0 0 14px rgba(255,120,150,0.25);
+}
+
+
+
+/* ============================================================
+   CHART CONTAINERS — Neon Frames
+============================================================ */
+
+.itype-chart-box {
+    background: rgba(15, 20, 35, 0.55);
+    padding: 22px;
+    border-radius: 18px;
+    margin: 25px 0;
+
+    border: 1px solid rgba(0,255,255,0.15);
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 0 22px rgba(0,255,255,0.18);
+}
+
+
+
+/* ============================================================
+   DEV BOX
+============================================================ */
+
+.dev-box {
+    background: rgba(15, 20, 35, 0.45);
+    padding: 20px;
+    border-radius: 14px;
+
+    border: 1px solid rgba(0,255,255,0.12);
+    backdrop-filter: blur(8px);
+}
+
+
+
+/* ============================================================
+   NEON DIVIDER
+============================================================ */
+
+.hr-neon {
+    height: 2px;
+    width: 100%;
+    margin: 40px 0;
+
+    background: linear-gradient(90deg,
+        rgba(0,255,255,0),
+        rgba(0,255,255,0.5),
+        rgba(0,255,255,0)
+    );
+}
+.itype-navbutton {
+    width: 100%;
+    padding: 16px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(0,255,255,0.25), rgba(120,70,255,0.25));
+    border: 1px solid rgba(0,255,255,0.25);
+    color: #e5f4ff;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 0 18px rgba(0,255,255,0.2);
+    transition: 0.25s ease;
+}
+
+.itype-navbutton:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 0 28px rgba(0,255,255,0.35);
+}
+
+/* Wrapper that keeps selectbox visually inside tile */
+.scenario-select-wrapper {
+    background: rgba(0,255,255,0.05);
+    border: 1px solid rgba(0,255,255,0.15);
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-top: -25px;  /* brings selectbox closer to text */
+    margin-bottom: 5px;
+    backdrop-filter: blur(6px);
+}
+
+/* Scenario card wrapper */
+.scenario-card {
+    background: rgba(20, 28, 48, 0.55);
+    border: 1px solid rgba(0,255,255,0.15);
+    padding: 22px 28px;
+    border-radius: 16px 16px 0px 0px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 18px rgba(0,255,255,0.08);
+}
+
+/* Selectbox block that attaches to the scenario card */
+.scenario-selectbox {
+    background: rgba(0,255,255,0.06);
+    border: 1px solid rgba(0,255,255,0.18);
+    border-top: none;
+    padding: 15px 20px;
+    border-radius: 0px 0px 16px 16px;
+    margin-top: -10px;  /* pulls seamlessly under the card */
+    backdrop-filter: blur(6px);
+}
+
+/* Space between tiles */
+.scenario-spacer {
+    height: 20px;
+}
+
+/* Archetype Tile Grid */
+.archetype-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 22px;
+    margin-top: 35px;
+}
+
+/* Archetype Card Base */
+.archetype-tile {
+    background: rgba(20, 28, 48, 0.55);
+    border: 1px solid rgba(0,255,255,0.18);
+    border-radius: 16px;
+    padding: 22px;
+    text-align: center;
+    cursor: pointer;
+    backdrop-filter: blur(8px);
+    transition: 0.25s ease;
+    box-shadow: 0 0 18px rgba(0,255,255,0.12);
+}
+
+.archetype-tile:hover {
+    transform: translateY(-6px) scale(1.03);
+    border-color: #4af3ff;
+    box-shadow: 0 0 25px rgba(0,255,255,0.35),
+                inset 0 0 22px rgba(120,60,255,0.25);
+}
+
+/* Archetype title inside tile */
+.archetype-tile h4 {
+    background: linear-gradient(90deg, #00eaff, #7a5cff, #ff4bf1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+}
+
+/* Expanded details section */
+.archetype-panel {
+    margin-top: 15px;
+    padding: 18px 22px;
+    background: rgba(10,14,25,0.6);
+    border-radius: 16px;
+    border: 1px solid rgba(0,255,255,0.15);
+    box-shadow: inset 0 0 15px rgba(0,255,255,0.15);
+}
+
+/* === ARCHETYPE GRID CONTAINER === */
+.archetype-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    margin-top: 25px;
+}
+
+/* === ARCHETYPE TILE === */
+.archetype-tile {
+    background: rgba(20, 28, 48, 0.55);
+    border: 1px solid rgba(0,255,255,0.18);
+    padding: 22px;
+    border-radius: 16px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    backdrop-filter: blur(8px);
+    transition: 0.25s ease;
+    box-shadow: 0 0 18px rgba(0,255,255,0.12);
+}
+
+.archetype-tile:hover {
+    transform: translateY(-6px) scale(1.02);
+    border-color: #4af3ff;
+    box-shadow: 0 0 30px rgba(0,255,255,0.28),
+                inset 0 0 22px rgba(120,60,255,0.25);
+}
+
+.archetype-tile h4 {
+    margin: 0;
+    font-size: 1.25rem;
+    background: linear-gradient(90deg, #00eaff, #7a5cff, #ff4bf1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* === SELECTED TILE (active) === */
+.archetype-tile.active {
+    border-color: #00f6ff;
+    box-shadow: 0 0 35px rgba(0,255,255,0.4),
+                inset 0 0 25px rgba(120,60,255,0.35);
+    transform: translateY(-4px);
+}
+
+/* === EXPANDED PANEL === */
+.archetype-panel {
+    margin-top: 25px;
+    padding: 20px 28px;
+    border-radius: 16px;
+    background: rgba(10,14,25,0.7);
+    border: 1px solid rgba(0,255,255,0.22);
+    box-shadow: inset 0 0 20px rgba(0,255,255,0.22);
+}
+.archetype-grid {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.archetype-tile {
+    background: rgba(0, 25, 45, 0.6);
+    padding: 25px;
+    margin: 10px 0;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+.archetype-tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(0,255,255,0.4);
+    border-color: #00eaff;
+}
+
+.archetype-tile.active {
+    box-shadow: 0 0 40px rgba(0,255,255,0.6);
+    border-color: #00eaff;
+    background: rgba(0, 40, 60, 0.9);
+}
+
+.archetype-panel {
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 12px;
+    background: rgba(0, 30, 50, 0.7);
+    border: 1px solid rgba(0,255,255,0.4);
+    box-shadow: 0 0 25px rgba(0,255,255,0.3);
+}
+
+/* REMOVE STREAMLIT BUTTON LOOK COMPLETELY */
+button.arche-btn {
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+/* Ensure Streamlit doesn't force its own styling */
+button.arche-btn:hover {
+    background: none !important;
+    border: none !important;
+}
+/* ============================================================
+   NEXT-GEN NEON GLOW FOR ARCHETYPE TILES
+   Futuristic, soft-pulse, cyberpunk motion
+============================================================ */
+
+/* Base button */
+button[kind="secondary"] {
+    background: #0f172a !important;
+    border: 2px solid #38bdf8 !important;
+    color: #e0f9ff !important;
+    font-weight: 600 !important;
+    border-radius: 14px !important;
+    padding: 1rem !important;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.25s ease;
+    box-shadow:
+        0 0 8px rgba(56, 189, 248, 0.4),
+        0 0 16px rgba(56, 189, 248, 0.2) inset;
+}
+
+/* Subtle pulsing ambient glow */
+button[kind="secondary"]::before {
+    content: "";
+    position: absolute;
+    inset: -4px;
+    border-radius: 16px;
+    background: radial-gradient(
+        circle,
+        rgba(56, 189, 248, 0.35),
+        rgba(56, 189, 248, 0.05),
+        transparent
+    );
+    z-index: -1;
+    animation: softPulse 4s infinite ease-in-out;
+}
+
+/* Hover: stronger glow + lift */
+button[kind="secondary"]:hover {
+    background: #13203a !important;
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 14px rgba(56, 189, 248, 0.55),
+        0 0 30px rgba(56, 189, 248, 0.35),
+        0 0 20px rgba(56, 189, 248, 0.45) inset;
+}
+
+/* Hover: outer ring */
+button[kind="secondary"]:hover::before {
+    animation: hoverPulse 1.5s infinite ease-in-out;
+    background: radial-gradient(
+        circle,
+        rgba(56, 189, 248, 0.55),
+        rgba(56, 189, 248, 0.15),
+        transparent
+    );
+}
+
+/* Active click ripple */
+button[kind="secondary"]:active::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 14px;
+    background: radial-gradient(
+        circle,
+        rgba(56, 189, 248, 0.55),
+        rgba(56, 189, 248, 0.15),
+        transparent
+    );
+    animation: clickRipple 0.4s forwards ease-out;
+}
+
+/* ================= ANIMATIONS =============== */
+@keyframes softPulse {
+    0%   { opacity: 0.25; transform: scale(1);   }
+    50%  { opacity: 0.45; transform: scale(1.04);}
+    100% { opacity: 0.25; transform: scale(1);   }
+}
+
+@keyframes hoverPulse {
+    0%   { opacity: 0.6; transform: scale(1);    }
+    50%  { opacity: 0.9; transform: scale(1.06); }
+    100% { opacity: 0.6; transform: scale(1);    }
+}
+
+@keyframes clickRipple {
+    0%   { opacity: 0.85; transform: scale(0.9); }
+    100% { opacity: 0; transform: scale(1.2);    }
+}
+
+.likert-legend {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    opacity: 0.7;
+    margin-bottom: 0.75rem;
+}
+
+.itype-question {
+    background: #131a2a;
+    padding: 1rem 1.2rem;
+    border-radius: 10px;
+    margin-bottom: 0.3rem;
+    border: 1px solid rgba(0,234,255,0.15);
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: rgba(0,234,255,0.08);
+    margin: 10px 0 20px 0;
+}
