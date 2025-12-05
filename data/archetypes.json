@@ -1,232 +1,322 @@
 {
-  "Visionary": {
-    "description": "You imagine future possibilities, connect dots others can't see, and gravitate toward high-upside, bold concepts.",
-    "signature": {
-      "thinking": 90,
-      "execution": 50,
-      "risk": 80,
-      "motivation": 75,
-      "team": 55,
-      "commercial": 45
+  "Analyst": {
+    "description": "A meticulous, methodical clinician who prefers structured reasoning, comprehensive information, and carefully considered decisions. Analysts excel in complex diagnostic work and thrive in environments where precision matters.",
+    "primary_dimensions": ["clinical_decision_style"],
+    "secondary_dimensions": ["stress_handling", "learning_adaptation"],
+    "tertiary_dimensions": ["risk_orientation", "team_communication", "response_tempo"],
+    "dimension_weights": {
+      "clinical_decision_style": 1.0,
+      "stress_handling": 0.6,
+      "learning_adaptation": 0.6,
+      "risk_orientation": 0.3,
+      "team_communication": 0.3,
+      "response_tempo": 0.3
     },
+    "signature_behaviours": [
+      "Thorough differential diagnosis before committing",
+      "Strong preference for structured pathways",
+      "Slow and deliberate decision-making",
+      "High information needs"
+    ],
     "strengths": [
-      "Exceptional big-picture thinking",
-      "Strong ability to generate breakthrough ideas",
-      "High comfort with uncertainty"
+      "Excellent diagnostic accuracy",
+      "Reliable and consistent",
+      "Strong at managing complex, unclear cases",
+      "Minimises unnecessary interventions"
     ],
-    "risks": [
-      "May overlook execution detail",
-      "Ideas can outrun available resources",
-      "Can become frustrated with slow systems"
+    "blindspots": [
+      "May be slow during emergencies",
+      "Can overanalyse simple cases",
+      "Struggles under severe time pressure",
+      "May appear indecisive to colleagues"
     ],
-    "pathways": ["TRL 1–3", "Exploratory R&D", "Early discovery"],
-    "business_models": ["Blue Ocean", "Platform model", "Vision-driven model"],
-    "funding_strategy": ["Innovation grants", "Angel investors", "Exploration funding"]
+    "stress_behaviour": "Withdraws into analysis, delays decisions, becomes overly detail-focused.",
+    "communication_style": "Clear, structured, evidence-based.",
+    "compatibility": {
+      "best_with": ["Stabiliser", "Detective", "Protocol Purist"],
+      "challenging_with": ["Rapid Responder", "Lone Wolf"]
+    }
   },
 
-  "Catalyst": {
-    "description": "You ignite momentum, energise teams, and push ideas into reality with urgency and enthusiasm.",
-    "signature": {
-      "thinking": 65,
-      "execution": 80,
-      "risk": 55,
-      "motivation": 90,
-      "team": 60,
-      "commercial": 55
+  "Rapid Responder": {
+    "description": "A decisive, action-driven clinician who excels in emergencies and thrives when rapid intervention is required.",
+    "primary_dimensions": ["response_tempo", "stress_handling"],
+    "secondary_dimensions": ["risk_orientation"],
+    "tertiary_dimensions": ["team_communication", "clinical_decision_style", "learning_adaptation"],
+    "dimension_weights": {
+      "response_tempo": 1.0,
+      "stress_handling": 1.0,
+      "risk_orientation": 0.6,
+      "team_communication": 0.3,
+      "clinical_decision_style": 0.3,
+      "learning_adaptation": 0.3
     },
+    "signature_behaviours": [
+      "Acts quickly under uncertainty",
+      "Comfortable with chaos",
+      "Takes early decisive action"
+    ],
     "strengths": [
-      "High energy implementation",
-      "Strong motivational leadership",
-      "Quick to remove bottlenecks"
+      "Excellent in emergencies",
+      "Rapid stabilisation of critical patients",
+      "Momentum-driver for the team"
     ],
-    "risks": [
-      "May burn out or burn others out",
-      "May push forward before validating assumptions"
+    "blindspots": [
+      "May act before full information is available",
+      "Can escalate too early",
+      "May frustrate slower thinkers"
     ],
-    "pathways": ["TRL 4–6", "Pilot deployments"],
-    "business_models": ["Agile model", "Freemium", "Rapid prototyping"],
-    "funding_strategy": ["Seed funding", "Innovation accelerators"]
+    "stress_behaviour": "Becomes authoritative and may over-intervene.",
+    "communication_style": "Direct, urgent, concise.",
+    "compatibility": {
+      "best_with": ["Stabiliser", "Situational Leader"],
+      "challenging_with": ["Analyst", "Protocol Purist"]
+    }
   },
 
-  "Engineer": {
-    "description": "You excel in execution, structure, system-building, and delivering practical solutions with precision.",
-    "signature": {
-      "thinking": 60,
-      "execution": 95,
-      "risk": 40,
-      "motivation": 65,
-      "team": 55,
-      "commercial": 45
+  "Harmoniser": {
+    "description": "A collaborative clinician who prioritises teamwork, communication, and interpersonal cohesion.",
+    "primary_dimensions": ["team_communication"],
+    "secondary_dimensions": ["stress_handling"],
+    "tertiary_dimensions": ["clinical_decision_style", "learning_adaptation", "response_tempo", "risk_orientation"],
+    "dimension_weights": {
+      "team_communication": 1.0,
+      "stress_handling": 0.6,
+      "clinical_decision_style": 0.3,
+      "learning_adaptation": 0.3,
+      "response_tempo": 0.3,
+      "risk_orientation": 0.3
     },
+    "signature_behaviours": [
+      "Strong emotional intelligence",
+      "Supports colleagues",
+      "De-escalates conflict effectively"
+    ],
     "strengths": [
-      "Reliable execution and delivery",
-      "Strong technical depth",
-      "Excellent problem-solving under constraints"
+      "Enhances team cohesion",
+      "Improves communication flow",
+      "Creates psychological safety"
     ],
-    "risks": [
-      "May prioritise feasibility over vision",
-      "May miss unconventional opportunities"
+    "blindspots": [
+      "Avoids necessary confrontation",
+      "May hesitate in emergencies"
     ],
-    "pathways": ["TRL 4–9", "Scale-up engineering"],
-    "business_models": ["Product-based", "Hardware-as-a-service"],
-    "funding_strategy": ["Tech transfer programmes", "Engineering-focused grants"]
+    "stress_behaviour": "Becomes overly accommodating and avoids conflict.",
+    "communication_style": "Warm, supportive, relationship-focused.",
+    "compatibility": {
+      "best_with": ["Stabiliser", "Innovator Clinician"],
+      "challenging_with": ["Lone Wolf", "Rapid Responder"]
+    }
   },
 
-  "Strategist": {
-    "description": "You think in terms of markets, value, and long-term positioning. You optimise for impact and big-picture clarity.",
-    "signature": {
-      "thinking": 80,
-      "execution": 60,
-      "risk": 40,
-      "motivation": 65,
-      "team": 55,
-      "commercial": 90
+  "Lone Wolf": {
+    "description": "An independent, self-directed clinician who prefers working alone and maintaining full control over clinical decisions.",
+    "primary_dimensions": ["clinical_decision_style"],
+    "secondary_dimensions": ["risk_orientation"],
+    "tertiary_dimensions": ["team_communication", "response_tempo", "stress_handling", "learning_adaptation"],
+    "dimension_weights": {
+      "clinical_decision_style": 1.0,
+      "risk_orientation": 0.6,
+      "team_communication": 0.3,
+      "response_tempo": 0.3,
+      "stress_handling": 0.3,
+      "learning_adaptation": 0.3
     },
+    "signature_behaviours": [
+      "Prefers autonomy",
+      "Minimal communication",
+      "Efficient in predictable environments"
+    ],
     "strengths": [
-      "Sharp commercial intuition",
-      "Strong market awareness",
-      "Excellent at crafting positioning"
+      "Highly reliable independently",
+      "Strong routine care execution",
+      "Consistent decision-making"
     ],
-    "risks": [
-      "May over-analyse before acting",
-      "Can get stuck validating instead of building"
+    "blindspots": [
+      "May resist collaboration",
+      "Communication gaps risk misunderstandings"
     ],
-    "pathways": ["TRL 5–9", "Product-market fit"],
-    "business_models": ["Lean canvas", "Marketplace model", "Value-stack model"],
-    "funding_strategy": ["VC funding", "Commercialisation grants"]
+    "stress_behaviour": "Withdraws further and becomes rigid.",
+    "communication_style": "Brief, functional, minimal verbalisation.",
+    "compatibility": {
+      "best_with": ["Detective", "Protocol Purist"],
+      "challenging_with": ["Harmoniser", "Situational Leader"]
+    }
   },
 
-  "Experimenter": {
-    "description": "You learn by trying, testing, and iterating. You thrive in ambiguity and adapt rapidly.",
-    "signature": {
-      "thinking": 70,
-      "execution": 60,
-      "risk": 85,
-      "motivation": 65,
-      "team": 50,
-      "commercial": 40
+  "Protocol Purist": {
+    "description": "A clinician who values structured, guideline-based practice with strong emphasis on safety and consistency.",
+    "primary_dimensions": ["clinical_decision_style"],
+    "secondary_dimensions": ["risk_orientation"],
+    "tertiary_dimensions": ["learning_adaptation", "team_communication", "response_tempo", "stress_handling"],
+    "dimension_weights": {
+      "clinical_decision_style": 1.0,
+      "risk_orientation": 0.6,
+      "learning_adaptation": 0.3,
+      "team_communication": 0.3,
+      "response_tempo": 0.3,
+      "stress_handling": 0.3
     },
+    "signature_behaviours": [
+      "Strict guideline adherence",
+      "Prioritises predictable, safe care",
+      "Low tolerance for deviations"
+    ],
     "strengths": [
-      "Rapid iteration",
-      "High adaptability",
-      "Strong learning loops"
+      "Excellent at reducing risk",
+      "Consistent decision-making",
+      "Ideal for standardised care pathways"
     ],
-    "risks": [
-      "May lack long-term consistency",
-      "Experiments may scatter focus"
+    "blindspots": [
+      "Slow to adopt innovation",
+      "Rigid during unexpected cases"
     ],
-    "pathways": ["TRL 2–5", "Prototyping"],
-    "business_models": ["Lean startup", "A/B testing models"],
-    "funding_strategy": ["Early-stage grants", "Angel investors"]
+    "stress_behaviour": "Becomes inflexible and rule-bound.",
+    "communication_style": "Structured, formal, evidence-heavy.",
+    "compatibility": {
+      "best_with": ["Analyst", "Lone Wolf"],
+      "challenging_with": ["Innovator Clinician", "Rapid Responder"]
+    }
   },
 
-  "Integrator": {
-    "description": "You bring people, ideas, and systems together, balancing innovation with practicality.",
-    "signature": {
-      "thinking": 65,
-      "execution": 65,
-      "risk": 50,
-      "motivation": 65,
-      "team": 90,
-      "commercial": 60
+  "Innovator Clinician": {
+    "description": "A creative, adaptive clinician who embraces new technology, evidence, and unconventional diagnostic reasoning.",
+    "primary_dimensions": ["learning_adaptation"],
+    "secondary_dimensions": ["clinical_decision_style", "team_communication"],
+    "tertiary_dimensions": ["risk_orientation", "response_tempo", "stress_handling"],
+    "dimension_weights": {
+      "learning_adaptation": 1.0,
+      "clinical_decision_style": 0.6,
+      "team_communication": 0.6,
+      "risk_orientation": 0.3,
+      "response_tempo": 0.3,
+      "stress_handling": 0.3
     },
+    "signature_behaviours": [
+      "Adopts new methods early",
+      "Explores unusual diagnostic angles",
+      "Brings creative solutions into clinical practice"
+    ],
     "strengths": [
-      "Excellent team facilitation",
-      "Strong cross-functional collaboration",
-      "Balances diverse perspectives"
+      "Highly adaptable",
+      "Excellent with complex or rare presentations",
+      "Brings innovation into the team"
     ],
-    "risks": [
-      "May avoid necessary conflict",
-      "Can be slow to take bold decisions"
+    "blindspots": [
+      "May disrupt highly structured teams",
+      "Can overcomplicate solutions"
     ],
-    "pathways": ["TRL 4–8", "Cross-functional programmes"],
-    "business_models": ["Collaborative model", "Ecosystem orchestration"],
-    "funding_strategy": ["Partnership grants", "Joint ventures"]
+    "stress_behaviour": "Becomes overly experimental or divergent.",
+    "communication_style": "Exploratory, idea-driven, enthusiastic.",
+    "compatibility": {
+      "best_with": ["Harmoniser", "Situational Leader"],
+      "challenging_with": ["Protocol Purist", "Lone Wolf"]
+    }
   },
 
-  "Operator": {
-    "description": "You run systems smoothly, optimise processes, and ensure reliability in innovation environments.",
-    "signature": {
-      "thinking": 55,
-      "execution": 80,
-      "risk": 30,
-      "motivation": 60,
-      "team": 80,
-      "commercial": 50
+  "Situational Leader": {
+    "description": "A flexible clinician who instinctively steps into leadership roles during crises, adapting their style to the environment.",
+    "primary_dimensions": ["response_tempo", "team_communication"],
+    "secondary_dimensions": ["stress_handling"],
+    "tertiary_dimensions": ["clinical_decision_style", "risk_orientation", "learning_adaptation"],
+    "dimension_weights": {
+      "response_tempo": 1.0,
+      "team_communication": 1.0,
+      "stress_handling": 0.6,
+      "clinical_decision_style": 0.3,
+      "risk_orientation": 0.3,
+      "learning_adaptation": 0.3
     },
+    "signature_behaviours": [
+      "Steps up during emergencies",
+      "Balances delegation and involvement",
+      "Maintains situational awareness"
+    ],
     "strengths": [
-      "High organisational discipline",
-      "Strong operational clarity",
-      "Reliably gets things done"
+      "Enhances team coordination",
+      "Effective in dynamic clinical settings",
+      "Bridges action and communication"
     ],
-    "risks": [
-      "May resist radical change",
-      "Prefers optimisation over disruption"
+    "blindspots": [
+      "May take on too much",
+      "May overshadow quieter team members"
     ],
-    "pathways": ["TRL 6–9", "Operational scale-up"],
-    "business_models": ["Operational excellence", "Service-as-a-system"],
-    "funding_strategy": ["Corporate innovation funds", "Scale grants"]
+    "stress_behaviour": "Becomes directive or controlling.",
+    "communication_style": "Clear, adaptive, leadership-oriented.",
+    "compatibility": {
+      "best_with": ["Rapid Responder", "Stabiliser"],
+      "challenging_with": ["Lone Wolf", "Analyst"]
+    }
   },
 
-  "Storyteller": {
-    "description": "You translate complex ideas into compelling narratives that win support and build momentum.",
-    "signature": {
-      "thinking": 70,
-      "execution": 50,
-      "risk": 45,
-      "motivation": 90,
-      "team": 70,
-      "commercial": 85
+  "Detective": {
+    "description": "A deep investigator who excels at uncovering hidden diagnoses and understanding complex pathophysiology.",
+    "primary_dimensions": ["clinical_decision_style"],
+    "secondary_dimensions": ["learning_adaptation"],
+    "tertiary_dimensions": ["risk_orientation", "team_communication", "stress_handling", "response_tempo"],
+    "dimension_weights": {
+      "clinical_decision_style": 1.0,
+      "learning_adaptation": 0.6,
+      "risk_orientation": 0.3,
+      "team_communication": 0.3,
+      "stress_handling": 0.3,
+      "response_tempo": 0.3
     },
+    "signature_behaviours": [
+      "Investigates deeply",
+      "Probes unusual findings",
+      "Focuses on underlying mechanisms"
+    ],
     "strengths": [
-      "Persuasive communication",
-      "Strong sense-making ability",
-      "Builds alignment effortlessly"
+      "Exceptional diagnostic depth",
+      "Ideal for complex or rare conditions",
+      "Thorough and systematic"
     ],
-    "risks": [
-      "May oversell before validating",
-      "Can lean too heavily on narrative over evidence"
+    "blindspots": [
+      "May over-investigate",
+      "Slow in high-speed clinical environments"
     ],
-    "pathways": ["TRL 3–7", "Stakeholder management"],
-    "business_models": ["Community-led", "Narrative-driven"],
-    "funding_strategy": ["Pitch competitions", "Crowdfunding"]
+    "stress_behaviour": "Overanalyzes and becomes detail-heavy.",
+    "communication_style": "Information-rich, structured, detailed.",
+    "compatibility": {
+      "best_with": ["Analyst", "Lone Wolf"],
+      "challenging_with": ["Rapid Responder", "Situational Leader"]
+    }
   },
 
-  "Apex Innovator": {
-    "description": "You combine exceptional creativity, execution strength, commercial intuition, and resilience. You operate at the apex of innovation capability: fast, adaptable, and deeply strategic.",
-    "signature": {
-      "thinking": 92,
-      "execution": 92,
-      "risk": 82,
-      "motivation": 92,
-      "team": 88,
-      "commercial": 88
+  "Stabiliser": {
+    "description": "A calm, steady presence who remains composed during difficult shifts. They anchor team morale and reduce emotional volatility.",
+    "primary_dimensions": ["stress_handling"],
+    "secondary_dimensions": ["team_communication"],
+    "tertiary_dimensions": ["clinical_decision_style", "response_tempo", "risk_orientation", "learning_adaptation"],
+    "dimension_weights": {
+      "stress_handling": 1.0,
+      "team_communication": 0.6,
+      "clinical_decision_style": 0.3,
+      "response_tempo": 0.3,
+      "risk_orientation": 0.3,
+      "learning_adaptation": 0.3
     },
+    "signature_behaviours": [
+      "Maintains calm under pressure",
+      "Emotionally steady",
+      "Reliable during prolonged stress"
+    ],
     "strengths": [
-      "Elite-level creative and analytical ability",
-      "Rapid execution and powerful learning agility",
-      "Strong commercial judgement and opportunity sensing",
-      "High adaptability and resilience under uncertainty"
+      "Reduces team stress",
+      "Highly dependable",
+      "Supports psychological safety"
     ],
-    "risks": [
-      "May overcommit or push too hard",
-      "May become impatient with slower processes or teams",
-      "Can assume others keep pace without checking alignment"
+    "blindspots": [
+      "May avoid escalation",
+      "Can resist rapid change"
     ],
-    "pathways": [
-      "High-performance ventures",
-      "TRL 5–9 scaling environments",
-      "Innovation leadership roles"
-    ],
-    "business_models": [
-      "Hybrid innovation systems",
-      "Platform ecosystems",
-      "Value-stack scaling models"
-    ],
-    "funding_strategy": [
-      "Venture capital",
-      "Growth equity",
-      "Strategic partnerships"
-    ]
+    "stress_behaviour": "Withdraws slightly but remains steady.",
+    "communication_style": "Measured, reassuring, calm.",
+    "compatibility": {
+      "best_with": ["Rapid Responder", "Harmoniser", "Situational Leader"],
+      "challenging_with": ["Innovator Clinician"]
+    }
   }
 }
+
